@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <div class="cards">
+        <div class="card main">
+          <div class="card__header">
+            <img id="img" src="./images/image-jeremy.png" alt="jeremy" />
+            <h1 class="text">Report for</h1>
+            <p class="username">Jeremy Robson</p>
+          </div>
+
+          <div class="card__content">
+            <ul class="list">
+              <li class="daily" data-update="1">Daily</li>
+              <li class="weekly" data-update="2">Weekly</li>
+              <li class="monthly" data-update="3">Monthly</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card card1">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Work</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card2">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Play</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card3">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Study</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card4">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Exercise</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card5">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Social</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card6">
+          <div class="card__header"></div>
+          <div class="card__content">
+            <div class="content__header">
+              <h2 class="card__title">Self Care</h2>
+              <div class="menu">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+            <div class="card__data">
+              <h1 class="data__time">32hrs</h1>
+              <p class="data__last">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
